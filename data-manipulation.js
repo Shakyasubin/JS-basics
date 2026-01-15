@@ -42,43 +42,57 @@
 // const str = "Hi My name is Subin Shakya.";
 // console.log(str.length);
 
-// indexOf, lastIndexOf, search
-const str = "Hi My name is Subin Shakya.";
+// ===indexOf, lastIndexOf, search
+// const str = "Hi My name is Subin Shakya.";
 // const val = str.indexOf("a");
 // const val = str.lastIndexOf("a");
-const val = str.search("o"); // returns (-1) if the provided value is not found
-console.log(val);
+// const val = str.search("o"); // returns (-1) if the provided value is not found
+// console.log(val);
 
-// slice, substring, substr
+// ===slice, substring, substr(deprecated)
 // slice(startingIndex, endingIndex)
+// substring(startingIndex, endingIndex)
+
 // const str = "Hi My name is Subin Shakya.";
 // const val = str.slice(4); // can use (-number) to start counting from the last
 // const val = str.slice(3, 5);
+// const val = str.substring(3, 7);
 // console.log(val);
 
-// replace, replaceAll, contact, trim
+// ===replace, replaceAll, concat, trim
+// replace/replaceAll(valueto, valueas)
+// trim() // removes spaces in front and back of the text
+// concat(value) // adds new value to the string // ( + ) sign can also be used instead of concat
+
 // const str = "Hi My name is Subin Shakya.";
 // const val = str.replace("Subin", "Spike");
 // const val1 = str.replaceAll("a", "u");
+// const val = str.trim();
+// const val = str.concat(" I live in Nayabazar.");
+// const val = str + " I live in Nayabazar.";
 // console.log(val);
 // console.log(val1);
 
-// toUpperCase, toLowerCase
+// ===toUpperCase, toLowerCase
 // const str = "Hi My name is Subin Shakya.";
 // const val = str.toLowerCase();
 // const val = str.toUpperCase();
 // console.log(val);
 
-// charAt, [], split
+// ===charAt, [], split, join
+// charAt(indexNo.)
+// split(separator) // converts string into array // seperator wont be included in array
+// join(value) // converts array to string separating each data by comma ( , ) if no value is provided
 // const str = "Hi My name is Subin Shakya.";
 // const val = str.charAt(20);
 // const val = str[6];
+// const val = str.split("i").join("a");
 // console.log(val);
 
-// includes
+// ===includes
 // const str = "Hi My name is Subin Shakya.";
 // const val = str.includes("e");
 // console.log(val);
 
-console.log(typeof str);
-console.log(str);
+// console.log(typeof str);
+// console.log(str);
