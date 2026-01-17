@@ -65,4 +65,9 @@
 
 // 3. ! // converts true value to false and vice versa
 
-// 4. Ternary
+// 4. Ternary (?) //
+// condiition ? statement1 (when true) : statement2 (when false)
+
+// const age = 30;
+
+// age < 50 ? console.log("Welcome") : console.log("Leave");
