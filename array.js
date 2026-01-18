@@ -2,7 +2,7 @@
 
 // === Array ===
 
-const fruits = ["Apple", "Banana", "Orange", "Mango"];
+// const fruits = ["Apple", "Banana", "Orange", "Mango"];
 
 // a. length, push, pop, shift, unshift, toString, join, [], splice, indexOf, slice, split ,includes
 
@@ -67,6 +67,6 @@ const fruits = ["Apple", "Banana", "Orange", "Mango"];
 
 // d. filter, reduce, every, find
 
-console.log(typeof fruits);
-console.log(fruits);
-console.log(val);
+// console.log(typeof fruits);
+// console.log(fruits);
+// console.log(val);
