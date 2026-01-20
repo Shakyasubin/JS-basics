@@ -25,6 +25,8 @@
 // console.log(typeof val2, val2);
 // console.log(isNaN(val2));
 
+// ==================================================================
+
 // 2. String
 
 // Concatination
@@ -96,3 +98,5 @@
 
 // console.log(typeof str);
 // console.log(str);
+
+// ==================================================================
