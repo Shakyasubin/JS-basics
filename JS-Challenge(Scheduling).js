@@ -10,10 +10,10 @@
 
 // console.log("3. after first setTime out");
 
-// const sayHey = () => {
+// function sayHey() {
 //   console.log("4. inside sayhey");
 //   yoyo();
-// };
+// }
 
 // setTimeout(() => {
 //   console.log("5. inside second set timeout");
